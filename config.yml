@@ -83,3 +83,8 @@ services:
         subtitle: "Another application"
         tag: "app"
         url: "#"
+      - name: "Test"
+        logo: "_blank"
+        subtitle: "This is a test"
+        tag: "app"
+        url: "_blank"
