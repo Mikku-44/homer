@@ -91,6 +91,12 @@ services:
         subtitle: "192.168.1.236:8666"
         tag: "app"
         url: "https://nextcloud.alvareznet.cloud/"
+      - name: "Portainer Host"
+        logo: "assets/icons/portainer.png"
+        subtitle: "192.168.1.236:9996"
+        tag: "app"
+        url: "http://portainer.alvarezlan.com"
+
 
 
   - name: "Hosts"
