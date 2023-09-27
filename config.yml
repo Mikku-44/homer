@@ -123,4 +123,16 @@ services:
         tag: "host"
         url: "http://unraid.alvarezlan.com/login"
 
+
+  - name: "Syncthing Nodes"
+    icon:
+    items:
+     -  name: "Gomu Gomu"
+        logo: "assets/icons/syncthing.png"
+        subtitle: "192.168.1.10:8384"
+        tag: "Syncthing"
+        url: "http://gomusync.alvarezlan.com/"
+  
+      
+
         
