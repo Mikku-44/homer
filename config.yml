@@ -93,6 +93,19 @@ services:
     items:
       - name: "Anya"
         logo: "assets/icons/proxmox.png"
-        subtitle: "192.168.1.25:8006"
+        subtitle: "192.168.1.21:8006"
         tag: "Host"
         url: "https://192.168.1.21:8006/"
+      - name: "Kanna"
+        logo: "assets/icons/proxmox.png"
+        subtitle: "192.168.1.25:8006"
+        tag: "Host"
+        url: "https://192.168.1.25:8006/"
+      - name: "Bingo"
+        logo: "assets/icons/proxmox.png"
+        subtitle: "192.168.1.4:8006"
+        tag: "Host"
+        url: "https://192.168.1.4:8006/"
+
+
+        
