@@ -41,12 +41,12 @@ colors:
     link-hover: "#ffdd57"
 
 # Optional message
-message:
+#message:
   #url: https://b4bz.io
-  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
-  icon: "fa fa-grin"
-  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+  #style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  #title: "Demo !"
+  #icon: "fa fa-grin"
+  #content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -77,7 +77,7 @@ services:
         tag: "app"
         url: "http://192.168.1.142:8989/"
       - name: "Radarr"
-        logo: "assets/icons/sonarr.png"
+        logo: "assets/icons/radarr.png"
         subtitle: "192.168.1.142:7878"
         tag: "app"
         url: "http://192.168.1.142:7878"
@@ -86,6 +86,11 @@ services:
         subtitle: "192.168.1.243:8080"
         tag: "app"
         url: "http://192.168.1.243:8080/"
+      - name: "Nextcloud"
+        logo: "assets/icons/nextcloud.png"
+        subtitle: "192.168.1.236:8666"
+        tag: "app"
+        url: "https://nextcloud.alvareznet.cloud/"
 
 
   - name: "Hosts"
