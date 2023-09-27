@@ -71,25 +71,25 @@ services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
-        logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+      - name: "Sonarr"
+        logo: "assets/icons/sonarr.png"
+        subtitle: "192.168.1.142:8989"
         tag: "app"
-        keywords: "self hosted reddit"
-        url: "https://www.reddit.com/r/selfhosted/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
+        url: "http://192.168.1.142:8989/"
+      - name: "Radarr"
+        logo: "assets/icons/sonarr.png"
+        subtitle: "192.168.1.142:7878"
         tag: "app"
-        url: "#"
-      - name: "Unraid"
-        logo: "assets/icons/unraid.png"
-        subtitle: "Unraid server"
+        url: "http://192.168.1.142:7878"
+      - name: "qBitTorrent"
+        logo: "assets/icons/qbittorrent.png"
+        subtitle: "192.168.1.243:8080"
         tag: "app"
-        url: "http://unraid.alvarezlan.com/login"
+        url: "http://192.168.1.243:8080/"
+
+
   - name: "Hosts"
-    icon: "assets/icons/proxmox.png"
+    icon:
     items:
       - name: "Anya"
         logo: "assets/icons/proxmox.png"
@@ -106,6 +106,10 @@ services:
         subtitle: "192.168.1.4:8006"
         tag: "Host"
         url: "https://192.168.1.4:8006/"
-
+      - name: "Unraid"
+        logo: "assets/icons/unraid.png"
+        subtitle: "192.168.1.236"
+        tag: "host"
+        url: "http://unraid.alvarezlan.com/login"
 
         
