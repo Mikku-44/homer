@@ -102,7 +102,7 @@ services:
         tag: "app"
         url: "https://ha.alvareznet.cloud"
       - name: "Nginx Proxy Manager"
-        logo: "assets/icons/icons/nginxproxymanager.png"
+        logo: "assets/icons/nginxproxymanager.png"
         subtitle: "192.168.1.183:81"
         tag: "app"
         url: "http://nginx.alvarezlan.com"
