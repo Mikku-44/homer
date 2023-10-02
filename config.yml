@@ -85,7 +85,7 @@ services:
         logo: "assets/icons/qbittorrent.png"
         subtitle: "192.168.1.243:8080"
         tag: "app"
-        url: "http://qb.alvarezlan.com/"
+        url: "http://192.168.1.243:8080/"
       - name: "Nextcloud"
         logo: "assets/icons/nextcloud.png"
         subtitle: "192.168.1.236:8666"
