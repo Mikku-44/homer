@@ -71,6 +71,11 @@ services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
+      - name: "Proxmox Backup Server"
+        logo: "assets/icons/proxmox.png"
+        subtitle: "192.168.1.192:8007"
+        tag: "app"
+        url: "https://192.168.1.192:8007/#pbsDashboard"
       - name: "Sonarr"
         logo: "assets/icons/sonarr.png"
         subtitle: "192.168.1.142:8989"
