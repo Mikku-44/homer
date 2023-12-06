@@ -86,7 +86,7 @@ services:
         subtitle: "192.168.1.243:8080"
         tag: "app"
         url: "http://192.168.1.243:8080/"
-        name: "qBitTorrent"
+        name: "PrivateeringServer2"
         logo: "assets/icons/qbittorrent.png"
         subtitle: "192.168.1.30:8080"
         tag: "app"
