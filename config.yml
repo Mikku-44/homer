@@ -121,7 +121,11 @@ services:
         subtitle: "192.168.1.221:6080"
         tag: "app"
         url: "http://192.168.1.221:6080/"
-        
+      - name: "Jackett"
+        logo: "assets/icons/jackett.png"
+        subtitle: "192.168.1.142:9116"
+        tag: "app"
+        url: "http://jackett.alvarezlan.com"
         
 
 
