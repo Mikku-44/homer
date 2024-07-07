@@ -163,11 +163,12 @@ services:
         subtitle: "192.168.1.236:8384"
         tag: "Syncthing"
         url: "http://hubsync.alvarezlan.com/"
-        name: "External Storage"
+     -  name: "External Storage"
         logo: "assets/icons/syncthing.png"
         subtitle: "192.168.1.4:8384"
         tag: "Syncthing"
-        url: "http://192.168.1.4:8384/"
+        url: "http://192.168.1.4:8384"
+
 
   -  name: "DNS"
      icon:
