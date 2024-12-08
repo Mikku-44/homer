@@ -131,7 +131,12 @@ services:
         subtitle: "192.168.1.142:9116"
         tag: "app"
         url: "http://jackett.alvarezlan.com"
-        
+      - name: "Tautulli"
+        logo: "assets/icons/tautulli.png"
+        subtitle: "192.168.1.159:8181"
+        tag: "app"
+        url: "http://tautulli.alvarezlan.com"  
+
 
 
 
