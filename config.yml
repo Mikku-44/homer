@@ -100,6 +100,7 @@ services:
         logo: "assets/icons/qbittorrent.png"
         subtitle: "192.168.1.88:7476"
         tag: "app"
+        url: "http://192.168.1.88:7476"
       - name: "PrivateeringServer1"
         logo: "assets/icons/qbittorrent.png"
         subtitle: "192.168.1.4:7070"
