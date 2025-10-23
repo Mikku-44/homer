@@ -98,7 +98,7 @@ services:
         url: "http://192.168.1.236:6767"
       - name: "Qui"
         logo: "assets/icons/qbittorrent.png"
-        subtitle: "http://192.168.1.88:7476"
+        subtitle: "192.168.1.88:7476"
         tag: "app"
       - name: "PrivateeringServer1"
         logo: "assets/icons/qbittorrent.png"
